@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: asadjvd/go-web-app
-  tag: "28026179218"
+  tag: "28026267147"
   pullPolicy: IfNotPresent
 
 ingress:
