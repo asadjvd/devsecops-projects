@@ -42,8 +42,7 @@ jobs:
     - name: Run golangci-lint
       uses: golangci/golangci-lint-action@v7
       with:
-        version: v1.56.2
-        working-directory: go-web-app-devops
+        args: --timeout=5m
   
   push:
     runs-on: ubuntu-latest
